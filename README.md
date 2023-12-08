@@ -1,1 +1,1 @@
-# meeting-notes
+# GradSAC Meeting Notes
