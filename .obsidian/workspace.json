@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/weekly-meeting-template.md",
+                "file": "weekly-notes/2023-12-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/weekly-meeting-template.md",
+                "file": "weekly-notes/2023-12-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/weekly-meeting-template.md",
+                "file": "weekly-notes/2023-12-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/weekly-meeting-template.md"
+                "file": "weekly-notes/2023-12-08.md"
               }
             }
           }
@@ -159,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9bbab258435e6e3",
+  "active": "f66c776d48797acc",
   "lastOpenFiles": [
-    "Untitled.md",
     "templates/weekly-meeting-template.md",
     "weekly-notes/2023-12-08.md",
+    "Untitled.md",
     "README.md",
     "templates",
     "weekly-notes"
