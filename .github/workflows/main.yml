@@ -23,10 +23,17 @@ jobs:
       run: |
         cp weekly-notes/${{ steps.find-latest.outputs.latest_file }} README.md
 
-    - name: Commit changes
+    - name: Configure Git
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
+
+    - name: Commit changes
+      run: |
         git add README.md
-        git commit -m "Update README with latest Weekly Note"
-        git push
+        git commit -m "Update README with latest note"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
