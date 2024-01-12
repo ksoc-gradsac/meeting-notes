@@ -16,12 +16,12 @@ jobs:
     - name: Find latest file
       id: find-latest
       run: |
-        latest_file=$(ls -t weekly-notes | head -n1)
+        latest_file=$(ls -t path/to/your/directory | head -n1)
         echo "::set-output name=latest_file::$latest_file"
 
     - name: Copy latest file to README
       run: |
-        cp weekly-notes/${{ steps.find-latest.outputs.latest_file }} README.md
+        cp path/to/your/directory/${{ steps.find-latest.outputs.latest_file }} README.md
 
     - name: Configure Git
       run: |
@@ -31,9 +31,11 @@ jobs:
     - name: Commit changes
       run: |
         git add README.md
-        git commit -m "Update README with latest note"
+        git commit -m "Update README with latest file"
 
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: actions/github-script@v7
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const fs = require('fs');
+          fs.writeFileSync('README.md', fs.readFileSync('README.md', 'utf-8'));
