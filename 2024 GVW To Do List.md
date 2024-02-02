@@ -11,9 +11,9 @@
 ### Saturday
 #### Skiing
 - Get tickets
-	- Brighton or Soli? Talk to ME/BME/etc. Which has cheap beginner tickets?
+	- ~~Brighton or Soli? Talk to ME/BME/etc. Which has cheap beginner tickets?~~ Brighton is the choice
 - Get rentals
-	- Make questionnaire for email
+	- ~~Make questionnaire for email~~ Done!
 - drivers/guides
 - lunch stuff
 	- buy food
