@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c45539159c27151e",
+            "id": "860a6235c030feb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weekly-notes/2024-02-16.md",
+                "file": "weekly-notes/2024-04-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a9441f1b6c7da9a3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weekly-notes/2024-02-16.md",
+                "file": "weekly-notes/2024-04-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "weekly-notes/2024-02-16.md",
+                "file": "weekly-notes/2024-04-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "weekly-notes/2024-02-16.md"
+                "file": "weekly-notes/2024-04-12.md"
               }
             }
           }
@@ -147,10 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c45539159c27151e",
+  "active": "860a6235c030feb3",
   "lastOpenFiles": [
+    "weekly-notes/2024-04-05.md",
+    "weekly-notes/2024-04-12.md",
+    "Pasted image 20240405133617.png",
+    "weekly-notes/2024-03-29.md",
+    "weekly-notes/2024-03-15.md",
     "weekly-notes/2024-02-09.md",
     "weekly-notes/2024-02-16.md",
+    "weekly-notes/2024-03-01.md",
+    "weekly-notes/2024-03-22.md",
     "Untitled.md",
     "weekly-notes/2024-02-02.md",
     "README.md",
