@@ -5,7 +5,7 @@ from datetime import datetime
 from pprint import pprint
 
 # Read the markdown file
-with open('old_notes_3.md', 'r') as file:
+with open('meeting-notes.md', 'r') as file:
     data = file.readlines()
 
 dates = list()
@@ -31,7 +31,7 @@ for i, line in enumerate(data):
             except ValueError:
                 date = datetime.strptime(match.group(1), '%b %d, %Y')
             
-            date_string = date.strftime('%m-%d-%Y')
+            date_string = date.strftime('%Y-%m-%d')
             
             notes_dict[date_string] = list()
             
@@ -48,8 +48,9 @@ for i, line in enumerate(data):
 
 
 for date, notes in notes_dict.items():
-    year_dir = date[6:]
-    month_dir = datetime.strptime(date[:2], '%m').strftime('%B')
+    print(date, date[:4], date[5:7])
+    year_dir = date[:4]
+    month_dir = datetime.strptime(date[5:7], '%m').strftime('%B')
     
     print(year_dir, month_dir, date)
     
